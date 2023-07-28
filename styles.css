@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background: #2B3467;
+    padding: 20px;
+    box-shadow: 10px 10px 50px rgb(142, 141, 141);
+    align-items: center;
+    z-index: 500;
+    display: flex;
+    justify-content: space-between;
+    color : white;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+    text-decoration : none;
+}
+
+.logo{
+    font-size: 30px ;
+    font-weight: bolder;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+section{
+    padding: 20%;
+}
+
+.home{
+    display: flex;
+    flex-direction: row-reverse;
+    background: url(home.png) no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+
+.home .content{
+    font-size: 30px ;
+    color: aliceblue;
+    text-align: right;
+}
+
+p{
+    color: #eb9617;
+}
+
+.about{
+    padding: 45px 0 45px 0;
+}
+ 
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2B3467;
+    font-size: 40px;
+}
+
+.sectionContent p{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    color: #64696c;
+}
+
+.sectionContent{
+    text-align: center;
+    margin:5px 100px;
+}
+
+.whyContent{
+    padding: 40px 0 0 ;
+    text-align: center;
+}
+
+.whyContent h3{
+    color: #2B3467;
+    font-size: 30px;
+}
+
+.product{
+    padding: 45px 0 45px 0;
+    background-color: #ECF2FF;
+
+}
+
+.category{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    
+    
+}
+
+.card{
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #4A55A2;
+    font-family: ;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card h4{
+    font-size: 20px;
+    background-color: white;
+    padding: 2%;
+}
+
+
+
+.review{
+    padding: 60px 0 60px 0;
+    background: #ffffff;
+    color: #301E67;
+    text-align: center;
+}
+
+.reviewTitle{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.name{
+    font-size: 20px;
+    padding: 2%;
+}
+.star{
+    color: #FFB84C ;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.review p{
+    color: #2D2727;
+    font-size: 15px;
+}
+
+
+.border{
+    margin: 26px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33%;
+    max-width: 33%;
+    padding: 15px;
+
+}
+
+.testimonial{
+    background: #C0DBEA;
+    padding: 30px;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact{
+    background-color: #ECF2FF;
+    padding: 50px;
+}
+.contactForm{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+.form{
+    width: 80%;
+    padding: 20px 60px 40px 40px;
+    border-radius: 6px ;
+    box-shadow: 0 5px 10px rgb(142, 141, 141);
+    background: #8696FE;
+}
+
+.contactForm .form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactForm .form .leftside{
+
+    width: 25%;
+    height: 100%;
+}
+.contactForm .form .rightside{
+    width: 75%;
+}
